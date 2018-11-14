@@ -4,7 +4,7 @@
 using namespace std;
 
 template <class T>
-class Node {
+struct Node {
     int x, y;
     T data;
     Node* next;
